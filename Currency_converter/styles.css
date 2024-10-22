@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .converter {
+    
+    background-color: #8409ff;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 250px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input{
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 80%;
+  }
+  select,
+  button {
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 90%;
+  }
+  button{background-color: #21c1bc;}
+
+  #result {
+    text-align: center;
+  
+    margin-top: 10px;
+  
+  }
+
+  
